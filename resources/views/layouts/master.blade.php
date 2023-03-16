@@ -59,14 +59,16 @@
     <!--end footer-->
 
     {{-- Modified added app.js --}}
-    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
     <script src="{{ asset('js/app.js') }}" defer></script>
+    {{-- <script src="{{ asset('js/app.js') }}"></script> --}}
     <!--jQuery js-->
     <script src="/frontend/js/jquery-3.3.1.min.js"></script>
     <!--proper js-->
     <script src="/frontend/js/popper.min.js"></script>
     <!--bootstrap js-->
     <script src="/frontend/js/bootstrap.min.js"></script>
+
+    {{-- <script src="/frontend/assets/js/bootstrap.bundle.min.js"></script> --}}
     <!--magnic popup js-->
     <script src="/frontend/js/magnific-popup.min.js"></script>
     <!--owl carousel js-->
