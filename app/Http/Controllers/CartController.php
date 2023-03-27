@@ -13,6 +13,12 @@ class CartController extends Controller
         $this->middleware('auth');
     }
 
+    public function index()
+    {
+        $baskets = Basket::where('user_id', auth()->user()->id)->with('product')->get();
+        return view('cart', compact('baskets'));
+    }
+
     public function store(Request $request)
     {
         $current_user = auth()->user();

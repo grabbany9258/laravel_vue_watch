@@ -1,5 +1,5 @@
 <template>
-    <span class="badge rounded-pill bg-warning align-top">{{ basketCount }}</span>
+    <span class="badge badge-pill  badge-warning align-top">{{ basketCount }}</span>
 </template>
 <script>
 export default {
